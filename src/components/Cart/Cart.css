@@ -7,10 +7,6 @@
   box-sizing: border-box;
   height: 100%;
 }
-hr {
-  border-color: rgba(0,0,0, 0.5) !important;
-  margin:0 35px
-}
 .cart-img {
   align-self: flex-start;
   height: 230px;
