@@ -1,0 +1,126 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 30px;
+  color: rgb(212, 211, 211);
+  background: linear-gradient(rgb(10, 61, 70), rgb(9, 65, 82), rgb(10, 61, 70));
+}
+.footer .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  font-size: 15px;
+  margin-top: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 700;
+  opacity: 0.9;
+  margin-bottom: 20px;
+}
+.about-body {
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-align: justify;
+  opacity: 0.8;
+  font-weight: 400;
+}
+.payment {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  align-items: center;
+}
+.fab {
+  color: rgb(212, 211, 211);
+  margin: 5px 2px;
+  text-decoration: none !important;
+}
+.fab:hover {
+  color: rgb(212, 211, 211);
+  transform: scale(1.08);
+}
+.secure-tag {
+  text-align: center;
+  font-weight: 500;
+}
+.categories {
+  padding: 0;
+  text-align: start;
+}
+.categories li,
+.info {
+  line-height: 2;
+  opacity: 0.8;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+li a {
+  text-decoration: none;
+  color: rgb(212, 211, 211);
+}
+li a:hover {
+  text-decoration: none;
+  color: rgb(212, 211, 211);
+  transform: scale(1.1);
+}
+.col-lg-3.col-md-6.col-sm-12 {
+  padding: 0;
+}
+.contacts {
+  font-size: 13px;
+  font-weight: 480;
+  letter-spacing: 1px;
+  opacity: 0.8;
+}
+.social-media ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+}
+hr {
+  border-top: 1px solid #fff !important;
+  margin: 5px 0 !important;
+}
+.row {
+  align-items: flex-start !important;
+}
+.btn-contact {
+  background: none;
+  border: none;
+  box-shadow: none !important;
+}
+.copyright {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: -20px;
+}
+.copyright p {
+  padding: 0;
+  margin: 0;
+  opacity: 0.8;
+  font-size: 15px;
+}
+.copyright a {
+  padding: 0;
+  margin: 0;
+  opacity: 0.8;
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+@media only screen and (max-width: 575px) {
+}

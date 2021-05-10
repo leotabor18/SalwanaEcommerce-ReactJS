@@ -1,0 +1,94 @@
+.cart-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px 25px;
+}
+.cart-name-quantity {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 50%;
+}
+.cart-summary .cart-name {
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+}
+.cart-quantity {
+  font-size: 15px;
+  padding: 0;
+  margin: 0 20px 0 10px;
+}
+.cart-summary .cart-price {
+  font-size: 15px;
+  margin: 0 10px;
+  padding: 0;
+}
+.total {
+  padding: 5px 25px;
+}
+.sub-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 10px;
+}
+.sub-total h3 {
+  font-size: 19px;
+  padding: 0;
+  font-weight: 500;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  opacity: 0.9;
+}
+.sub-total .other-fee {
+  font-size: 14px;
+  padding: 0;
+  font-weight: 500;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  opacity: 0.8;
+}
+.total p {
+  font-size: 11px;
+  opacity: 0.7;
+  margin: 0 15px;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+.summary-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.total-fee {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 20px;
+}
+.total-fee h3 {
+  font-size: 23px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  opacity: 0.9;
+}
+.summary-footer .btn-proceed {
+  font-size: 17px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px;
+  margin: 20px 20px;
+  width: 90%;
+  text-align: center;
+  background: linear-gradient(rgb(23, 129, 161), rgb(23, 140, 158));
+}
+.summary-footer .btn-proceed:hover {
+  background: linear-gradient(rgb(23, 129, 161), rgb(23, 140, 158));
+}

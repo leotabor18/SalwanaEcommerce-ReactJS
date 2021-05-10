@@ -1,0 +1,52 @@
+.account-page {
+  margin-top: 90px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 30px;
+}
+.modal-dialog.modal-lg.modal-dialog-centered {
+  justify-content: center;
+  margin-top: 60px;
+}
+.modal-content {
+  width: 60%;
+}
+.modal-body {
+  justify-self: center;
+  text-align: center;
+}
+.modal-body p {
+  font-size: 15px;
+  font-weight: 500;
+  color: #000;
+  opacity: 0.9;
+  text-decoration: none;
+}
+.modal-body a {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(23, 140, 158);
+  text-decoration: none;
+}
+.modal-footer,
+.modal-header {
+  border: none;
+}
+.modal-close {
+  border-radius: 0;
+  font-size: 17px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px;
+  margin: 20px 20px;
+  width: 90%;
+  text-align: center;
+  background: linear-gradient(rgb(23, 129, 161), rgb(23, 140, 158));
+}
+div#example-modal-sizes-title-sm {
+  text-align: center;
+}
