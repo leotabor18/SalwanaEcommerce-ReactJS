@@ -39,9 +39,9 @@ h1 {
   margin: 0;
   width: fit-content;
 }
-hr {
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-  margin: 10px 35px;
+.cart-container hr {
+  border-top: 1px solid rgba(0, 0, 0, 0.1) !important;
+  margin: 10px 35px  !important;
 }
 .empty {
   height: 40vh;
