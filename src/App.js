@@ -7,6 +7,7 @@ import { Switch, Route, BrowserRouter as Router } from "react-router-dom";
 import { CartProvider } from "./contextAPI/Context";
 import Account from "./Pages/Account";
 import Login from "./components/AccountPage/Login";
+import Items from "./Pages/Items";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/cart" component={Cart}></Route>
           <Route path="/signup" component={Account}></Route>
           <Route path="/login" component={Login}></Route>
+          <Route path="/items" component={Items}></Route>
         </Switch>
       </CartProvider>
       <Footer />

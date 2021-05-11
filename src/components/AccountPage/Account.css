@@ -124,8 +124,35 @@ h1 {
   color: rgb(17, 160, 160);
   font-weight: 400;
 }
+.modal-header {
+  border-bottom: 1px solid #dee2e6 !important;
+}
+.modal-footer {
+  border-top: 1px solid #dee2e6 !important;
+}
+.modal-content {
+  width: 70%;
+}
+.modal .fab {
+  color: blue;
+  margin: 0;
+  margin-left: 10px;
+  transform: scale(1) !important;
+}
+.modal-dialog.modal-lg.modal-dialog-centered {
+  justify-content: center;
+  margin-top: 0px;
+}
+.react-credits {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
 @media only screen and (max-width: 425px) {
-  .signup {
+  .signup,
+  .login {
     width: 100%;
     padding: 20px;
   }
@@ -142,5 +169,8 @@ h1 {
   }
   .hr {
     font-size: 10px;
+  }
+  .modal-content {
+    width: 95% !important;
   }
 }

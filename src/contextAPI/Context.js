@@ -151,9 +151,11 @@ export const CartProvider = (props) => {
   ];
   const [cart, setCart] = useState([]);
   const [list, setList] = useState(ProductList);
+  const [item, setItem] = useState([]);
   const context = {
     cart: [cart, setCart],
     list: [list, setList],
+    item: [item, setItem],
   };
   return (
     <CartContext.Provider value={context}>

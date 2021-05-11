@@ -1,13 +1,30 @@
-import React, { useState } from "react";
+import React, { useContext } from "react";
 import { Button, Container } from "react-bootstrap";
 import "./Cart.css";
 import Rates from "../Cards/Rates";
+import { CartContext } from "../../contextAPI/Context";
 
 function CartList(props) {
-  const [save, setSave] = useState(false);
+  const [items, setItems] = useContext(CartContext).item;
+
   const rate = true;
+
+  const save = items.find((list) => list.id === props.id);
+  const saveItem = save === undefined ? false : true;
+
   const onSetSave = () => {
-    setSave(() => (save ? false : true));
+    const newItem = {
+      id: props.id,
+      name: props.name,
+      price: props.price,
+      url: props.url,
+    };
+    const exist = items.find((list) => list.id === props.id);
+    if (!exist) {
+      setItems(() => [...items, newItem]);
+    } else {
+      setItems(items.filter((list) => list.id !== props.id && list));
+    }
   };
 
   return (
@@ -47,13 +64,13 @@ function CartList(props) {
             variant="light"
             onClick={onSetSave}
             className={
-              save
+              saveItem
                 ? "heart btn-save shadow-none"
                 : "btn-save not-save shadow-none"
             }
           >
             <span
-              className={save ? "fas fa-heart mr-2" : "far fa-heart mr-2"}
+              className={saveItem ? "fas fa-heart mr-2" : "far fa-heart mr-2"}
             ></span>
             Save for later
           </Button>

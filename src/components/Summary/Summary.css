@@ -4,9 +4,6 @@
   align-items: center;
   padding: 3px 25px;
 }
-hr {
-  border-color: #000 !important;
-}
 .cart-name-quantity {
   display: flex;
   justify-content: flex-start;

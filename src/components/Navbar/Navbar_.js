@@ -49,10 +49,10 @@ const Navbar_ = () => {
             </Form>
             <ul className="navbar-list">
               <li className="nav-item">
-                <a className="nav-link btn shadow-none" href="/">
+                <Link className="nav-link btn shadow-none" to="/items">
                   <i className="far fa-heart fa-lg mr-2"></i>
                   My Items
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
                 <Link

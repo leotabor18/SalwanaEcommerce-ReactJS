@@ -1,0 +1,27 @@
+.items {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  background: #fff;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+}
+hr {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 10px 35px;
+}
+.empty {
+  height: 40vh;
+  padding: 20px 35px;
+  font-size: 15px;
+  font-weight: 490;
+  opacity: 0.8;
+  letter-spacing: 1px;
+}
+@media only screen and (max-width: 990px) {
+  .items {
+    width: 100%;
+  }
+}

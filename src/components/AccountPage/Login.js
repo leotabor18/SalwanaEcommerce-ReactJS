@@ -13,7 +13,7 @@ function Login() {
       <div className="login shadow">
         <Form>
           <h1>Login</h1>
-          <Form.Group controlId="formBasicEmail">
+          <Form.Group controlId="phone">
             <Form.Control
               type="text"
               placeholder="Phone number"
@@ -21,7 +21,7 @@ function Login() {
             />
             <i className="fa-lg fas fa-mobile-alt"></i>
           </Form.Group>
-          <Form.Group controlId="formBasicEmail">
+          <Form.Group controlId="password">
             <Form.Control
               type="password"
               placeholder="Password"

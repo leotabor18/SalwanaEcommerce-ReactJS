@@ -18,6 +18,9 @@ function Modal_(props) {
           more about me please come visit my portfolio,
         </p>
         <a href="/"> Leonardo E. Tabor</a>
+        <p className="react-credits">
+          Powered by <span class="fa-2x fab fa-react"></span>
+        </p>
       </Modal.Body>
       <Modal.Footer>
         <Button className="modal-close" onClick={props.onHide}>
