@@ -15,9 +15,11 @@ function Modal_(props) {
       <Modal.Body>
         <p>
           Thank you so much for visiting my simple E-commerce website! To know
-          more about me please come visit my portfolio,
+          more about me, please visit my portfolio
         </p>
-        <a href="/"> Leonardo E. Tabor</a>
+        <a target="_blank" href="https://leonardotabor.herokuapp.com/">
+          Leonardo E. Tabor
+        </a>
         <p className="react-credits">
           Powered by <span class="fa-2x fab fa-react"></span>
         </p>

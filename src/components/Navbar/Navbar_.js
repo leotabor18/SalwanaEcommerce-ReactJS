@@ -12,7 +12,7 @@ import { CartContext } from "../../contextAPI/Context";
 
 const Navbar_ = () => {
   const cart = useContext(CartContext).cart[0];
-
+  const items = useContext(CartContext).item[0];
   return (
     <Navbar className="nav" bg="light shadow-sm" expand="lg">
       <Container className="nav-container">
@@ -50,7 +50,13 @@ const Navbar_ = () => {
             <ul className="navbar-list">
               <li className="nav-item">
                 <Link className="nav-link btn shadow-none" to="/items">
-                  <i className="far fa-heart fa-lg mr-2"></i>
+                  <i
+                    className={
+                      items.length !== 0
+                        ? "heart-list far fa-heart fa-lg mr-2"
+                        : "far fa-heart fa-lg mr-2"
+                    }
+                  ></i>
                   My Items
                 </Link>
               </li>
