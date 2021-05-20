@@ -26,17 +26,17 @@ const Carousel_ = () => {
             </Carousel.Item>
           );
         })}
-        <Carousel.Caption>
-          <h1>Featuring the Kapampangan Local Products</h1>
-          <p>
-            ( Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
-            nesciunt doloremque?)
-          </p>
-          <Button className="shadow-none" variant="light">
-            Buy now
-          </Button>
-        </Carousel.Caption>
       </Carousel>
+      <Carousel.Caption>
+        <h1>Featuring the Kapampangan Local Products</h1>
+        <p>
+          ( Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
+          nesciunt doloremque?)
+        </p>
+        <Button className="shadow-none" variant="light">
+          Buy now
+        </Button>
+      </Carousel.Caption>
     </Container>
   );
 };
